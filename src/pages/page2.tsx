@@ -3,7 +3,7 @@ import React, { createRef, useRef } from "react";
 import { useStyleRegistry } from "styled-jsx";
 
 export default function Page2() {
-  const opt = createRef();
+  const opt = createRef() as any;
 
   return (
     <div>

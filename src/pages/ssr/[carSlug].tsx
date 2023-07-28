@@ -7,7 +7,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   console.log(carObj);
   return { props: { carObj } };
 };
-export default function Page({ carObj }) {
+export default function Page({ carObj }: any) {
   console.log(carObj[0]);
 
   return (
