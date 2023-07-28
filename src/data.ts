@@ -1,2 +1,2 @@
-const carArr = ["volvo", "saab", "mercedes", "Audi"];
+const carArr = ["volvo", "saab", "mercedes", "audi"];
 export default carArr;
