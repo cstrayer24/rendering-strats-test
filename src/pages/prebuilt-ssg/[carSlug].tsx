@@ -22,7 +22,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 function Page({ carProp }: any) {
   return (
     <div>
-      {carProp.name} is {carProp.description}
+      {carProp?.name} is {carProp?.description}
     </div>
   );
 }
