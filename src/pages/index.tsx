@@ -16,6 +16,13 @@ export default function Home() {
           <Link href={"/ssr/mercedes"}>mercedes</Link>
           <Link href={"/ssr/audi"}>Audi</Link>
         </div>
+        <div className="flex flex-col">
+          <h1>prebuilt static</h1>
+          <Link href={"/prebuilt-ssg/volvo"}>volvo</Link>
+          <Link href={"/prebuilt-ssg/saab"}>saab</Link>
+          <Link href={"/prebuilt-ssg/mercedes"}>mercedes</Link>
+          <Link href={"/prebuilt-ssg/audi"}>Audi</Link>
+        </div>
       </div>
     </div>
   );
